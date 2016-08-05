@@ -1,4 +1,4 @@
-package com.exp.java.chainofresponsibility;
+package com.dp.java.behavioral.chainofresponsibility;
 
 public class NegativeProcessor implements Chain {
 
