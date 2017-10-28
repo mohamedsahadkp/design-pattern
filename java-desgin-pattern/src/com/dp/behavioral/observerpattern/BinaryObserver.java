@@ -1,4 +1,4 @@
-package com.dp.java.behavioral.observerpattern;
+package com.dp.behavioral.observerpattern;
 
 public class BinaryObserver extends Observer {
 

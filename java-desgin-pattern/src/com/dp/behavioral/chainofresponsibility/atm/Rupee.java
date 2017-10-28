@@ -1,4 +1,4 @@
-package com.dp.java.behavioral.chainofresponsibility.atm;
+package com.dp.behavioral.chainofresponsibility.atm;
 
 public class Rupee {
 

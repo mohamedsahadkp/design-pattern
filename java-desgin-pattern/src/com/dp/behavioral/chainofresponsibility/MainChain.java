@@ -1,4 +1,4 @@
-package com.dp.java.behavioral.chainofresponsibility;
+package com.dp.behavioral.chainofresponsibility;
 
 public class MainChain {
 

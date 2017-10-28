@@ -1,6 +1,6 @@
-package com.dp.java.behavioral.chainofresponsibility.atm;
+package com.dp.behavioral.chainofresponsibility.atm;
 
-public class Rupee500Dispense implements DispenseChain {
+public class Rupee1000Dispence implements DispenseChain {
 
 	private DispenseChain chain;
 
@@ -9,11 +9,12 @@ public class Rupee500Dispense implements DispenseChain {
 	}
 
 	public void processChain(Rupee rupee) {
-		if (rupee.getAmount() >= 500) {
-			int count = rupee.getAmount() / 500;
-			int balance = rupee.getAmount() % 500;
+		if (rupee.getAmount() >= 1000) {
+			int count = rupee.getAmount() / 1000;
+			int balance = rupee.getAmount() % 1000;
 
-			System.out.println("Printing " + count + " 500 Rupee");
+			System.out.println("Printing " + count + " 1000 Rupee");
+
 			if (balance != 0) {
 				rupee = new Rupee();
 				rupee.setAmount(balance);
